@@ -1,0 +1,37 @@
+    /* Estilos gerais */
+    body {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /* Estilos para a seção do currículo */
+    .curriculum-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: black; /* Cor de fundo da área onde o currículo não está */
+    }
+
+    .container {
+        width: 50%;
+        padding: 15px 2%;
+        box-shadow: 0 0 5px rgb(80, 19, 195);
+    }
+
+    .container img {
+        border-radius: 50%;
+    }
+
+    /* Estilos para as linhas horizontais */
+    .hr_dados1, .hr_05 {
+        border-top: medium dashed rgb(80, 19, 195)t;
+        border-bottom: medium dashed rgb(80, 19, 195);
+        height: 5px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
